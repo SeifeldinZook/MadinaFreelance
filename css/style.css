@@ -1,0 +1,222 @@
+@font-face {
+    font-family: lucida calligraphy italic;
+    src: url('../lucida-calligraphy/lucida\ calligraphy\ italic.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: lucida calligraphy italic;
+}
+
+.page {
+    height: 100vh;
+    padding: 20px 20px 0px 40px;
+    background-color: rgb(179, 105, 170);
+    background-image: url('../imgs/TV7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myTable {
+    padding-right: 10px;
+    padding-left: 0;
+    height: 100%;
+}
+
+#myInfo {
+    padding-left: 10px;
+    padding-right: 0;
+    height: 100%;
+}
+
+#brand {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%
+}
+
+#brand img {
+    height: 100%;
+}
+
+#medTable {
+    height: 80%;
+    background-color: #d3acd0;
+    padding: 20px 15px 20px 30px;
+    text-align: center;
+    overflow: auto;
+    /* position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
+
+table {
+    width: 100%;
+    font-size: 15px;
+}
+
+thead {
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #525252;
+    vertical-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(179, 105, 170);
+}
+
+tbody {
+    background-color: #ffff;
+    border: 0;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+tbody td {
+    background-color: #ffff;
+    border: 1px solid #c1c1c1;
+}
+
+.info {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 20px;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    background-color: white;
+    color: Red;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ticker {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 40px; */
+    margin: 0 auto;
+}
+
+.news {
+    width: 100%;
+    background: #ffff;
+    color: red;
+    height: 100%;
+}
+
+/* .title {
+    width: 20%;
+    text-align: center;
+    background: #c81c1c;
+    position: relative;
+}
+.title:after {
+    position: absolute;
+    content: "";
+    right: -16%;
+    border-left: 20px solid #c81c1c;
+    border-top: 33px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 33px solid transparent;
+    top: 0;
+}
+.title h5 {
+    font-size: 18px;
+    margin: 8% 0;
+} */
+
+.news marquee {
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.myContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3vh;
+}
+
+.e-img {
+    background-image: url(../imgs/e\ logo.png);
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.bord {
+    border-radius: 5px;
+    height: 10%;
+    background-color: white;
+}
+
+.empty {
+    height: 1%;
+}
+
+#carouselExampleSlidesOnly {
+    height: 45%;
+    border-radius: 5px;
+}
+
+.carousel-inner {
+    height: 100%;
+    width: unset !important;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.bordRht {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.newsBar {
+    height: 6vh;
+}
+
+.mainContent {
+    height: 85vh;
+}
