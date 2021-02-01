@@ -79,7 +79,7 @@ tbody {
 }
 
 tbody td {
-    background-color: #ffff;
+    background-color: rgb(178, 2, 10, 0.9);
     border: 1px solid #c1c1c1;
 }
 
@@ -219,4 +219,9 @@ footer {
 
 .mainContent {
     height: 85vh;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
